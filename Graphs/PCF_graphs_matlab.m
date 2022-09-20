@@ -633,20 +633,7 @@ cfl_p_5_dp_0_4 = [5.24E+03
 cfl_i_p_5_dp_0_8 = interp1(wl_red, cfl_p_5_dp_0_8, wl_red_i, 'pchip');
 cfl_i_p_5_dp_0_4 = interp1(wl_red, cfl_p_5_dp_0_4, wl_red_i, 'pchip');
 
-% figure(8);
-% plot(wl_red,cfl_p_5_dp_0_8,'bo','MarkerFaceColor','b');
-% hold on;
-% plot(wl_red_i,cfl_i_p_5_dp_0_8,'b-');
-% plot(wl_red,cfl_p_5_dp_0_6,'ro','MarkerFaceColor','r');
-% plot(wl_red_i,cfl_i_p_5_dp_0_6,'r-');
-% plot(wl_red,cfl_p_5_dp_0_4,'mo','MarkerFaceColor','m');
-% plot(wl_red_i,cfl_i_p_5_dp_0_4,'m-');
-% hold off;
-% set(gca,'fontsize',10);
-% xlabel('\bf {\it \lambda}  [in \mum]','fontsize',15);
-% ylabel('\bf {\it Confinement Loss}  [in dB/m]','fontsize',15);
-% title('\bf {\it Confinement Loss} v/s {\it \lambda} for {\it \Lambda} = 5 \mum','fontsize',15);
-% legend('\bf {\it d /\Lambda} = 0.8','','\bf {\it d /\Lambda} = 0.6','','\bf {\it d /\Lambda} = 0.4','','fontsize',10,'Location','northwest');
+
 
 
 
